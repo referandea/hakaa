@@ -1,0 +1,81 @@
+.main_nav
+{
+    margin-top: 0px;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+   
+}
+.nav_menu{
+   margin: 2px;
+ 
+   
+}
+      .nav_button{
+        padding: 10px;
+       left: 0;
+
+      }
+.nav_menu  ul {
+    display: flex;
+    font-size: medium;
+    font-weight: 800;
+    color: white;
+    list-style: none;
+   
+}
+.nav_menu  ul li{
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.nav_menu  ul li:hover{
+    color: #f94381;
+    
+}
+.nav_wallet{
+    margin-right: 1em;
+
+}
+.active{
+    color: #f94381;
+}
+.Header
+{
+    color: white;
+    margin-left: 10px;
+}
+.nav_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_button
+{
+    
+    height: 43px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 4px;
+    background: transparent;
+    color: #f94381;
+    border: #f94381 solid 2px;
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+   width: 144px;
+   text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.nav_button:hover
+{
+    background-color: #f94381;
+    color: white;
+
+}
